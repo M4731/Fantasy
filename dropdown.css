@@ -43,9 +43,10 @@
 
 .aliniat-la-stanga {
     display: flex;
-    flex-direction: row;
+	flex-direction: row;
     align-items: center;
-	margin-left: 0px;
+	position: absolute;
+	left: 8%;
 }
 
 .aliniat-la-dreapta {
@@ -68,9 +69,7 @@
     display: none;
     position: absolute;
     background: black;
-    min-width: 10%;
-	color: black;
-	text-color: black;
+    min-width: 50%;
 }
 
 .dropdown-content span {
@@ -84,11 +83,9 @@
 }
 
 .dropdown-content > span:hover {
-    color: black;
+    color: black ;
 }
 
 .dropdown-span:hover {
-    background: orange;
-	text-color: black;
-	color: black;
+    background: brown;
 }
