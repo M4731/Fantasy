@@ -70,6 +70,7 @@
     position: absolute;
     background: black;
     min-width: 50%;
+	cursor: pointer;
 }
 
 .dropdown-content span {

@@ -4,7 +4,6 @@ body {
 
 main {
     height: 0px;
-    background: aliceblue;
 }
 
 header {
@@ -34,6 +33,11 @@ h1 {
 	padding-left: 40px;
 }
 
+.Specials{
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
 .1{
     display: flex;
     width: 100%;
@@ -56,4 +60,28 @@ li {
 #imagine1 {
 	width: 250px;
 	height: 250px;
+}
+
+.poze:hover img {
+	box-shadow: black 0px 10px 7px;
+    transform: scale(1.1);
+    cursor: pointer;
+	border-radius: 0;
+}
+
+.lista {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nicinustiu {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.footer {
+	background-image: url(https://wallpaperaccess.com/full/1129039.jpg);
+    background-size: auto;
+	padding: 50px;
+	background-repeat: no-repeat;
 }
