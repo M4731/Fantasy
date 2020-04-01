@@ -13,7 +13,7 @@
     width: 5%;
     max-width: 30%;
     height: auto;
-    display: block; /* remove extra space below image */
+    display: block; 
 	padding-left: 10px;
 }
 
@@ -33,6 +33,8 @@
     justify-content: space-between;
     width: 100%;
     padding: 20px 10px;
+	align-items: center;
+	padding-left: 7.5%;
 }
 
 .navbar li a {
@@ -46,13 +48,26 @@
 	flex-direction: row;
     align-items: center;
 	position: absolute;
-	left: 8%;
+	left: 15%;
+
+}
+
+.aliniat-la-stanga>li {
+    float: left;
+    padding-right: 50px;
+    padding-top: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .aliniat-la-dreapta {
     display: flex;
     align-items: center;
+	float: right;
 	padding-right: 10px;
+	margin-right: 25%;
 }
 
 .navbar > .aliniat-la-stanga > li:nth-child(1) > a {

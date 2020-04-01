@@ -5,15 +5,18 @@ html {
 
 body {
     background-color: #f4a688;
+	position: relative;
+	height: auto;
 }
 
 main {
-    height: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 header {
     top: 0;
-    position: sticky;
+    position: relative;
     width: 100%;
 }
 
@@ -54,14 +57,22 @@ h1 {
     overflow-x: hidden;
 }
 
-li {
+.poze {
     float: left;
     padding-right: 50px;
     padding-top: 25px;
     display: block;
+	align-items: center;
     color: white;
     text-align: center;
     text-decoration: none;
+	position: relative;
+}
+
+.poze>a{
+	position: absolute;
+	left: 30%;
+	top: 45%;
 }
 
 #imagine1 {
@@ -73,7 +84,31 @@ li {
 	box-shadow: black 0px 10px 7px;
     transform: scale(1.1);
     cursor: pointer;
-	border-radius: 0;
+}
+
+.Buy {
+	box-shadow:inset 0px 1px 0px 0px;
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+	display: none;
+}
+.Buy:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+
+.poze:hover a.Buy {
+	display: block;
+	z-index: 5;
 }
 
 .lista {
@@ -84,6 +119,7 @@ li {
 .nicinustiu {
 	padding-top: 30px;
 	padding-left: 30px;
+	padding-bottom: 2.5%;
 }
 
 .footer {
@@ -100,7 +136,13 @@ li {
 	justify-content: space-around;
 }
 
-address {
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.address {
     display: block;
     font-style: italic;
 }
