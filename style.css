@@ -1,3 +1,8 @@
+html {
+	color: black;
+	font-family: Verdana; 
+}
+
 body {
     background-color: #f4a688;
 }
@@ -31,11 +36,13 @@ h1 {
 .trending{
 	padding-top: 10px;
 	padding-left: 40px;
+	font-weight: bold;
 }
 
 .Specials{
 	padding-top: 30px;
 	padding-left: 40px;
+	font-weight: bold;
 }
 
 .1{
