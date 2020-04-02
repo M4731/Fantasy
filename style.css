@@ -8,6 +8,7 @@ body {
 	background-repeat:no-repeat;
 	background-size: cover;
 	position: relative;
+	min-height: 100vh;
 }
 
 main {
@@ -138,7 +139,7 @@ header {
 }
 
 footer{
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
