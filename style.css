@@ -6,7 +6,7 @@ html {
 body {
     background-image: url(https://i0.wp.com/onlyvectorbackgrounds.com/wp-content/uploads/2019/01/Simple-Vector-Geometric-Background-Turquoise.jpg?fit=1191%2C842);
 	background-repeat:no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	position: relative;
 }
 
