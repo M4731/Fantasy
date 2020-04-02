@@ -1,7 +1,12 @@
 
 
+footer{
+	margin-top: 10%;
+}
+
+
 .sign-up-form{
-	width: 300px;
+	width: 30%;
 	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
 	background: white;
 	padding: 20px;
@@ -55,6 +60,27 @@ hr{
 	margin: -20px auto 10px;
 }
 
-#spatiu{
+.spatiu{
 	padding: 5%;
 }
+
+
+
+.sign-up-form form input:nth-child(4){
+	height: 50px;
+	display: inline;
+}
+
+#mailhelp {
+	text-decoration: none;
+	color: #80b3ff;
+}
+
+#signupp {
+	text-decoration: none;
+	color: #80b3ff;	
+}
+
+
+
+

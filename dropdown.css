@@ -14,12 +14,16 @@
 	padding-left: 10px;
 }
 
+.navbbb {
+	display: flex;
+}
+
 .navbar {
     list-style-type: none;
     background: black;
     display: flex;
     flex-direction: row;
-    width: 92%;
+    width: 91.90%;
     padding: 20px 10px;
 	align-items: center;
 	padding-left: 7.5%;
