@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    background-color: #f4a688;
+    background-image: url(https://i0.wp.com/onlyvectorbackgrounds.com/wp-content/uploads/2019/01/Simple-Vector-Geometric-Background-Turquoise.jpg?fit=1191%2C842);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
 	position: relative;
 	height: auto;
 }
@@ -63,9 +65,9 @@ h1 {
     padding-top: 25px;
     display: block;
 	align-items: center;
-    color: white;
+    color: black;
     text-align: center;
-    text-decoration: none;
+    text-decoration: bold;
 	position: relative;
 }
 
@@ -75,13 +77,14 @@ h1 {
 	top: 45%;
 }
 
-#imagine1 {
-	width: 250px;
-	height: 250px;
+.imagine1 {
+	width: 256px;
+	height: 256px;
+	border-radius: 10% 10% 10% 10%;
 }
 
 .poze:hover img {
-	box-shadow: black 0px 10px 7px;
+	box-shadow: black 0px 15px 7px;
     transform: scale(1.1);
     cursor: pointer;
 }
