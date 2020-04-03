@@ -113,13 +113,13 @@ main{
 }
 
 @keyframes gal_exemplu{ 
-	0% {z-index:10;opacity:1;} /*perioada 0-5% in care se afiseaza fara efect */
+	0% {z-index:10;opacity:1;}
 	5% {opacity:1}
-	13%{opacity:1} /* de  aici doresc sa descresc si opacitatea;*/
+	13%{opacity:1} 
 	14.28%{z-index:10;opacity:0}
-	14.281%{z-index:-1;}/* il ascund cat mai in spate sa nu vina peste imaginile care erau mai sus in html decat el*/
+	14.281%{z-index:-1;}
 	85.71999999%{opacity:1;z-index:-1;}	
-	85.72%{z-index:0;}/*setez z-index la 0 ca sa revina la ordinea normala de afisare*/
+	85.72%{z-index:0;}
 	100%{opacity:1;z-index:0;}
 }
 
