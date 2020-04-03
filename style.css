@@ -208,7 +208,7 @@ main {
 }
 
 .poze figure figcaption {
-	font-size: 7.5px;
+	font-size: 0.4rem;
 }
 
 .trending {
@@ -224,6 +224,11 @@ main {
 
 .navbar {
 	padding-left: 0%;
+}
+
+.Buy {
+	font-size:0.45rem;
+	padding:0.5rem 0.9rem;	
 }
 
 }
