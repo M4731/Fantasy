@@ -75,12 +75,10 @@ hr{
 	color: #80b3ff;	
 }
 
-@media screen and (max-width: 1050px) and (min-width: 650px){
-main {
-	padding-left: 0%;
-	padding-right: 1%;
 }
 
+@media screen and (max-width: 450px) and (min-width: 1px){
+	.spatiu {
+		padding: 20%;
+	}
 }
-
-

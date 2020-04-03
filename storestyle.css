@@ -139,8 +139,13 @@ main {
 	padding-left: 0%;
 	padding-right: 2%;
 }
-	
-.sectiune_joc_shop_grid{
-	grid-auto-rows: minmax(175px, auto);
+.joc1 > ul > li {
+	font-size: 0.5rem;
 }
+.sectiune_joc_shop_grid{
+	grid-template-columns: 20% 40% 40%;
+}
+
+
+
 }
