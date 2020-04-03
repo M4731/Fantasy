@@ -218,6 +218,13 @@ main {
 .Specials {
 	padding-left: 20px;
 }
+.navbar li a {
+	padding: 1.5vw;
+}
+
+.navbar {
+	padding-left: 0%;
+}
 
 }
 
