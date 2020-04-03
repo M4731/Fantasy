@@ -152,7 +152,7 @@ main {
 	padding-right: 0;
 }
 .joc1 > ul > li {
-	font-size: 0.1rem;
+	font-size: 0.9rem;
 }
 .sectiune_joc_shop_grid{
 	grid-auto-rows: minmax(1px, auto);
