@@ -78,8 +78,8 @@ header {
 }
 
 .imagine1 {
-	width: 25vw;
-	height: 25vw;
+	width: 15vw;
+	height: 15vw;
 	border-radius: 10% 10% 10% 10%;
 }
 
@@ -99,7 +99,7 @@ header {
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:6px 26px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #cc9f52;
 	display: none;
@@ -168,9 +168,15 @@ main {
 	padding-left: 0%;
 }
 
+.imagine1 {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 10% 10% 10% 10%;
 }
 
-@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 650px) and (min-width: 1px) {
 #wwwww {
 	margin-right: 0vw;
 }
@@ -229,6 +235,17 @@ main {
 .Buy {
 	font-size:0.45rem;
 	padding:0.5rem 0.9rem;	
+}
+
+.imagine1 {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.dropdown-content span {
+    color: orange;
+    padding: 10px 5px;
 }
 
 }

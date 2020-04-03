@@ -29,7 +29,7 @@ main{
 .joc1 > p {
 	padding-top: 5%;
 	padding-bottom: 3%;
-	font-size: large;
+	font-size: 100%;
 	text-align: center;
 	color: black;
 }
@@ -134,4 +134,13 @@ main{
 	width: 100%;
 }
 
-
+@media screen and (max-width: 1050px) and (min-width: 650px){
+main {
+	padding-left: 0%;
+	padding-right: 2%;
+}
+	
+.sectiune_joc_shop_grid{
+	grid-auto-rows: minmax(175px, auto);
+}
+}
