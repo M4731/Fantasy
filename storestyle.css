@@ -15,7 +15,7 @@ main{
 	color: #cc5200;
 }
 
-.joc1 > h2 {
+.joc1 > h1 {
 	text-align: center;
 }
 
@@ -27,7 +27,7 @@ main{
 	color: black;
 }
 
-.joc1 > h3 {
+.joc1 > h2 {
 	padding-left: 10%;
 	padding-bottom: 2%;
 }
@@ -126,4 +126,5 @@ main{
 #pozedalea {
 	height: 375px;
 }
+
 
