@@ -5,7 +5,7 @@ main{
 
 .sectiune_joc_shop_grid{
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-row-gap: 40px;
 	grid-column-gap: 10px;
 	grid-auto-rows: minmax(375px, auto);
@@ -145,7 +145,22 @@ main {
 .sectiune_joc_shop_grid{
 	grid-template-columns: 20% 40% 40%;
 }
-
-
+}
+@media screen and (max-width: 650px){
+main {
+	padding-left: 0%;
+	padding-right: 0;
+}
+.joc1 > ul > li {
+	font-size: 0.1rem;
+}
+.sectiune_joc_shop_grid{
+	grid-auto-rows: minmax(1px, auto);
+	grid-template-columns: auto;
+	grid-template-rows: repeat(2, auto auto 500px);
+}
+.galerie{
+	margin-bottom:0;
+}
 
 }
