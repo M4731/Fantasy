@@ -139,12 +139,24 @@ main {
 	padding-left: 0%;
 	padding-right: 2%;
 }
+
 .joc1 > ul > li {
 	font-size: 0.5rem;
 }
+
 .sectiune_joc_shop_grid{
 	grid-template-columns: 20% 40% 40%;
 }
+
+.joc1 > p {
+	font-size: 0.7rem;
+}
+
+.joc1 > a {
+	margin-left: 7vh;
+}
+
+
 }
 @media screen and (max-width: 650px){
 main {
@@ -161,6 +173,9 @@ main {
 
 .galerie{
 	margin-bottom:0;
+}
+.joc1 > a {
+	margin-left: 30vh;
 }
 
 }
