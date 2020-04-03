@@ -13,6 +13,7 @@ body {
 
 main {
 	padding-left: 5%;
+	padding-bottom: 15%;
 }
 
 header {
@@ -152,4 +153,8 @@ footer{
 .footer a {
     text-decoration: none;
     color: orange;
+}
+
+.spatiu{
+	padding: 5%;
 }

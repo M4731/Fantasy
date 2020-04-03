@@ -14,10 +14,6 @@
 	padding-left: 10px;
 }
 
-.navbbb {
-	display: flex;
-}
-
 .navbar {
     list-style-type: none;
     background: black;
@@ -26,6 +22,7 @@
     padding: 20px 10px;
 	align-items: center;
 	padding-left: 7.5%;
+	padding-bottom: 2.5%;
 }
 
 .navbar li a {
@@ -45,7 +42,6 @@
 .aliniat-la-stanga>li {
     float: left;
     padding-right: 50px;
-    padding-top: 25px;
     display: block;
     text-align: center;
 }
@@ -54,10 +50,13 @@
     display: flex;
     align-items: center;
 	float: right;
+}
+
+#wwwww {
 	margin-right: 25%;
 }
 
-.navbar > .aliniat-la-stanga > li:nth-child(1) > a {
+.navbar .aliniat-la-stanga > li:nth-child(1) > a {
     font-size: 30px;
 }
 
