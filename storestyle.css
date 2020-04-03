@@ -8,14 +8,21 @@ main{
 	grid-template-columns: 33% 33% 33%;
 	grid-row-gap: 40px;
 	grid-column-gap: 10px;
-	grid-auto-rows: minmax(375px, 375px);
+	grid-auto-rows: minmax(375px, auto);
 }
 
 .joc1 {
 	color: #cc5200;
 }
 
-.joc1 > h1 {
+#primulh1{
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: large;
+	color: #cc5200;
+}
+
+.joc1 > h2 {
 	text-align: center;
 }
 
@@ -27,7 +34,7 @@ main{
 	color: black;
 }
 
-.joc1 > h2 {
+.joc1 > h3 {
 	padding-left: 10%;
 	padding-bottom: 2%;
 }
@@ -52,7 +59,6 @@ main{
 .galerie{
 	width:100%;
 	height:100%;
-	border:1px solid black;
 	position:relative;
 	overflow:hidden;
 	margin-bottom:5rem;
