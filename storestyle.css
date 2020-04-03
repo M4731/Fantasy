@@ -58,10 +58,10 @@ main{
 
 .galerie{
 	width:100%;
-	height:100%;
+	height:40vh;
 	position:relative;
 	overflow:hidden;
-	margin-bottom:5rem;
+	margin-bottom:20px;
 }
 
 .galerie figcaption{
@@ -157,8 +157,8 @@ main {
 .sectiune_joc_shop_grid{
 	grid-auto-rows: minmax(1px, auto);
 	grid-template-columns: auto;
-	grid-template-rows: repeat(2, auto auto 500px);
 }
+
 .galerie{
 	margin-bottom:0;
 }
