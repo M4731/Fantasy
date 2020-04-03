@@ -78,8 +78,8 @@ header {
 }
 
 .imagine1 {
-	width: 256px;
-	height: 256px;
+	width: 25vw;
+	height: 25vw;
 	border-radius: 10% 10% 10% 10%;
 }
 
@@ -158,3 +158,66 @@ footer{
 .spatiu{
 	padding: 5%;
 }
+
+@media screen and (max-width: 1050px) and (min-width: 650px){
+	#wwwww {
+	margin-right: 10px;
+}
+
+main {
+	padding-left: 0%;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+#wwwww {
+	margin-right: 0vw;
+}
+
+.aliniat-la-stanga>li {
+    padding-right: 1vw;
+}
+
+#logo-image{ 
+    margin-top: 0px;
+    margin-bottom: 3px;
+    width: 10%; 
+	padding-left: 0px;
+}
+
+.navbar .aliniat-la-stanga > li:nth-child(1) > a {
+    font-size: 20px;
+}
+
+.aliniat-la-stanga li {
+	font-size: 0.75rem;
+}
+
+body {
+	font-size: 0.75rem;
+}
+
+
+main {
+	padding-left: 0%;
+}
+
+.poze {
+    padding-right: 3vw;
+}
+
+.poze figure figcaption {
+	font-size: 7.5px;
+}
+
+.trending {
+	padding-left: 20px;
+}
+
+.Specials {
+	padding-left: 20px;
+}
+
+}
+

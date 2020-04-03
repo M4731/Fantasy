@@ -41,7 +41,7 @@
 
 .aliniat-la-stanga>li {
     float: left;
-    padding-right: 50px;
+    padding-right: 5vw;
     display: block;
     text-align: center;
 }
@@ -53,17 +53,11 @@
 }
 
 #wwwww {
-	margin-right: 25%;
+	margin-right: 15%;
 }
 
 .navbar .aliniat-la-stanga > li:nth-child(1) > a {
     font-size: 30px;
-}
-
-@media only screen and (max-width: 376px) {
-    .navbar, .aliniat-la-stanga, .aliniat-la-dreapta {
-        flex-direction: column !important;
-    }
 }
 
 .dropdown-content {
