@@ -34,7 +34,7 @@ button{
 	padding: 10px;
 	border-radius: 20px;
 	font-size: 15px;
-	margin: 10px, 0;
+	margin: 10px 0;
 	outline: none;
 	border: none;
 	cursor: pointer;
@@ -73,8 +73,6 @@ hr{
 #signupp {
 	text-decoration: none;
 	color: #80b3ff;	
-}
-
 }
 
 @media screen and (max-width: 450px) and (min-width: 1px){

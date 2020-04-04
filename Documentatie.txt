@@ -1,0 +1,28 @@
+Documentatie --
+
+Tema : Vanzare jocuri video
+
+Descriere : cum spune si primul paragraf din site, acesta este un marketplace digital ce se ocupa cu vanzarea jocurilor sub forma cheilor de Steam,
+ Origin, Xbox , etc.
+
+Structurare : Site-ul are Home(pagina principata - o scurta prezentare si niste articole de vanzare)
+                          Log in - unde utilizatorii se pot loga pe site 
+                                 - cu optiunea de Sign up pentru a-si face cont
+                          Support - unde utilizatorii pot intra in contact cu staff-ul                           
+                          Store - care este impartit pe categorii de jocuri
+                          Cart - unde utilizatorii isi pot vedea itemele adaugate in carut si checkout-ul  
+
+Site-uri concurente : G2A, Kinguin, HumbleBundle, GoG, ggdeals
+  Toate site-urile au in comun structurarea pagina foarte buna, dar numai Kinguin iese in evidenta cu artificii stilistice.
+  Toate site-urile au aceleasi cheie: sale, buy   
+
+Cuvinte cheie site : Buy Eur    
+		    Home - Buy Eur
+                    Support - ?email?                          
+                    Store - games
+		    Log in / Sign up - ?username?
+                    Cart - items, price 
+
+https://m4731.github.io/Fantasy/
+
+Bibliografie : Google Images, w3schools                     

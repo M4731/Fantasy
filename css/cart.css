@@ -1,0 +1,24 @@
+
+body {
+	text-align: center;
+	align-items: center;
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+	border: 2px solid black;
+}
+
+td{
+	border: 1px solid black;
+}
+
+th
+{
+    text-align: left;
+}
+
+thead th
+{
+    background-color:gray
+}
