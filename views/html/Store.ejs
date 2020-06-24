@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<title> Fantasy </title>
+		<link type="text/css" rel="stylesheet" href="/css/dropdown.css">
+		<link type="text/css" rel="stylesheet" href="/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8"> 
+		<meta name="description" content="game sales">
+		<meta name="keywords" content="Game, Sales, Cheap">
+		<meta name="author" content="Mindruleanu Matei Daniel">
+		<link rel="shortcut icon" href="/galery/favicon.ico" />
+
+        <script src="js/ejs.min.js"></script>     
+        <script src="js/storesorting.js"></script>          
+        <script src="js/storescript.js"></script>
+        <script tpye="text/javascript" src="/json/games.json">  </script>
+
+	</head>
+
+	<body>
+		<%- include("../fragmente/header") %>			
+		<main>
+			
+		<section>
+			<h1 id="h1index">Store</h1>
+			<p id="description"> 
+			<br> 
+			This is the page where you can find every single product that we are selling right now!
+			</p>
+
+		</section>
+        
+        <section>
+            <button onclick="sort()"> Sorteaza dupa pret </button>
+        </section>
+        
+		<section class="trending">
+			<div>
+				<ul id="afisTemplateStore" class="lista" style="list-style-type:none;">
+				</ul>
+			</div>
+        </section>
+
+        <p>
+        </p>
+
+		</main>
+		<%- include("../fragmente/footer") %>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+{
+    "last_id": 11,
+    "games":
+    [
+        {
+            "id": 0,
+            "name": "Minecraft",
+            "price": 19.99,
+            "discount": 7.99,
+            "image": "https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 1,
+            "name": "GTA5",
+            "price": 35.18,
+            "discount": 13.10,
+            "image": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg?t=1579797647",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 2,
+            "name": "Overwatch",
+            "price": 19.99,
+            "discount": 14.70,
+            "image": "https://s1.gaming-cdn.com/images/products/2208/orig/overwatch-cover.jpg",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 3,
+            "name": "Sims4",
+            "price": 32.99,
+            "discount": 7.36,
+            "image": "https://media.gamestop.com/i/gamestop/10111452/The-Sims-4?$zoom$",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 4,
+            "name": "DoomEternal",
+            "price": 59.99,
+            "discount": 45.65,
+            "image": "https://venturebeat.com/wp-content/uploads/2020/01/doom-eternal-4.jpg?w=1200&strip=all",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 5,
+            "name": "Borderlands3",
+            "price": 59.99,
+            "discount": 59.99,
+            "image": "https://www.wooco.de/wp-content/uploads/2019/10/borderlands-3-banner.jpg",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 6,
+            "name": "CoDBO3",
+            "price": 59.99,
+            "discount": 17.73,
+            "image": "https://cdn-cf.gamivo.com/image_cover.jpg?f=200&n=fc34c800-784a-11e7-8203-abacaa3272cd.jpg&h=77782fa3690a9439fbac659d455dbff2",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 7,
+            "name": "TotalWarWarhammer2",
+            "price": 59.99,
+            "discount": 59.99,
+            "image": "https://149366088.v2.pressablecdn.com/wp-content/uploads/2018/06/Total_War_Warhammer_II.jpg.jpg",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 8,
+            "name": "TheWitcher3",
+            "price": 34.99,
+            "discount": 13.96,
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/433823760608029154/5DD5CF5FCDD3E285A93D45F5034F0A2C398328B2/",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 9,
+            "name": "HuntShowdown",
+            "price": 39.99,
+            "discount": 23.99,
+            "image": "https://b2.crackwatch.com/file/crackwatch-temp/51wookn30.jpg",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 10,
+            "name": "TotalWarWarhammer",
+            "price": 59.99,
+            "discount": 18.99,
+            "image": "https://cdn-ext.fanatical.com/production/product/original/c57c68ac-b21b-4ed2-a81c-b1890744a17d.jpeg?w=1200",
+            "nrOfBuys" : 0
+        },
+        {
+            "id": 11,
+            "name": "Skyrim",
+            "price": 39.99,
+            "discount": 12.69,
+            "image": "https://img-eshop.cdn.nintendo.net/i/3a41386d4b0999365727a21cc5c13853cfc244abca39b689bb79a339601e48c3.jpg?w=1000",
+            "nrOfBuys" : 0
+        }
+
+    ]
+}

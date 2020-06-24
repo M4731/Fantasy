@@ -13,6 +13,9 @@
 		<meta name="author" content="Mindruleanu Matei Daniel">
 		<link rel="shortcut icon" href="/galery/favicon.ico" />
 
+		<script src="js/ejs.min.js"></script>             
+		<script src="js/script.js"></script>
+
 	</head>
 
 	<body>
@@ -36,78 +39,9 @@
 			<p id="trendingdesc">
 			    What people are interested in right now.
 			</p>
+
 			<div>
-			    <ul class="lista" style="list-style-type:none;">
-				    <li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" alt="." class="imagine1">
-							<figcaption><del>19.99 EUR</del> -> 7.99 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg?t=1579797647" class="imagine1">
-							<figcaption><del>35.18 EUR</del> -> 13.10 EUR</figcaption>
-						</figure>	
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://s1.gaming-cdn.com/images/products/2208/orig/overwatch-cover.jpg" class="imagine1">
-							<figcaption><del>19.99 EUR</del> -> 14.70 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://media.gamestop.com/i/gamestop/10111452/The-Sims-4?$zoom$" class="imagine1">
-							<figcaption><del>32.99 EUR</del> -> 7.36 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://venturebeat.com/wp-content/uploads/2020/01/doom-eternal-4.jpg?w=1200&strip=all" class="imagine1">
-							<figcaption><del>59.99 EUR</del> -> 45.65 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://www.wooco.de/wp-content/uploads/2019/10/borderlands-3-banner.jpg" class="imagine1">
-							<figcaption>59.99 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://cdn-cf.gamivo.com/image_cover.jpg?f=200&n=fc34c800-784a-11e7-8203-abacaa3272cd.jpg&h=77782fa3690a9439fbac659d455dbff2" class="imagine1">
-							<figcaption><del>59.99 EUR</del> -> 17.73 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2018/06/Total_War_Warhammer_II.jpg.jpg" class="imagine1">
-							<figcaption>59.99 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://steamuserimages-a.akamaihd.net/ugc/433823760608029154/5DD5CF5FCDD3E285A93D45F5034F0A2C398328B2/" class="imagine1">
-							<figcaption><del>34.99 EUR</del> -> 13.96 EUR</figcaption>
-						</figure>
-		            </li>
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://b2.crackwatch.com/file/crackwatch-temp/51wookn30.jpg" class="imagine1">
-							<figcaption><del>39.99 EUR</del> -> 23.99 EUR</figcaption>
-						</figure>
-		            </li>					
+				<ul id="afisTemplate" class="lista" style="list-style-type:none;">
 				</ul>
 			</div>
         </section>
@@ -120,98 +54,20 @@
 			<p>
 			    Highest sales
 			</p>
+
 			<div>
-			    <ul class="lista" style="list-style-type:none;">
-				    <li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://cdn-cf.gamivo.com/image_cover.jpg?f=200&n=fc34c800-784a-11e7-8203-abacaa3272cd.jpg&h=77782fa3690a9439fbac659d455dbff2" class="imagine1">
-							<figcaption><del>59.99 EUR</del> -> 17.73 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://media.gamestop.com/i/gamestop/10111452/The-Sims-4?$zoom$" class="imagine1">
-							<figcaption><del>32.99 EUR</del> -> 7.36 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://venturebeat.com/wp-content/uploads/2020/01/doom-eternal-4.jpg?w=1200&strip=all" class="imagine1">
-							<figcaption><del>59.99 EUR</del> -> 45.65 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg?t=1579797647" class="imagine1">
-							<figcaption><del>35.18 EUR</del> -> 13.10 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://steamuserimages-a.akamaihd.net/ugc/433823760608029154/5DD5CF5FCDD3E285A93D45F5034F0A2C398328B2/" class="imagine1">
-							<figcaption><del>34.99 EUR</del> -> 13.96 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://b2.crackwatch.com/file/crackwatch-temp/51wookn30.jpg" class="imagine1">
-							<figcaption><del>39.99 EUR</del> -> 23.99 EUR</figcaption>
-						</figure>
-		            </li>
-					
-				    <li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" class="imagine1">
-							<figcaption><del>19.99 EUR</del> -> 7.99 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://s1.gaming-cdn.com/images/products/2208/orig/overwatch-cover.jpg" class="imagine1">
-							<figcaption><del>19.99 EUR</del> -> 14.70 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2018/06/Total_War_Warhammer_II.jpg.jpg" class="imagine1">
-							<figcaption>59.99 EUR</figcaption>
-						</figure>
-		            </li>
-					
-					<li class="poze">
-						<a href="#" class="Buy">BUY</a>
-						<figure>
-							<img src="https://www.wooco.de/wp-content/uploads/2019/10/borderlands-3-banner.jpg" class="imagine1">
-							<figcaption>59.99 EUR</figcaption>
-						</figure>
-		            </li>
-									
+				<ul id="afisTemplateSpecials" class="lista" style="list-style-type:none;">
 				</ul>
 			</div>
-        </section>
-		
-		<section class="nicinustiu">
-			<h3>You can find more items in <a href="index.html">Store</a> .</h3>
+			
 		</section>
 		
 
 		
+		<section class="nicinustiu">
+			<h3>You can find more items in <a href="/Store">Store</a> .</h3>
+		</section>
+
 		</main>
 		<%- include("../fragmente/footer") %>
 	</body>

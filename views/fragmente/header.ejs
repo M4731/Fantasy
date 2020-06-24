@@ -11,7 +11,7 @@
 							<li><a href="/help">Support</a></li>
 							<li>
 								<div class="dropdown">
-									<a href="#" class="dropdown-trigger">Store</a>
+									<a href="/Store" class="dropdown-trigger">Store</a>
 									<div class="dropdown-content">
 										<span class="dropdown-span"> <a href="/Multiplayer"> RPG Games </a> </span>
 										<span class="dropdown-span"> <a href="/Singleplayer"> Strategy Games </a> </span>
@@ -22,6 +22,7 @@
 						</ul>
 					</li>
 
+					<!-- daca sunt logat afiseaza numele + logout in header -->
 					<% if(locals.username) { %> 
 						<p style = "color:orange"><%= locals.username %> </p>
 						| <a href="/logout">Logout</a>

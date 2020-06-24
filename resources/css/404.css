@@ -1,0 +1,19 @@
+#h1404 {
+    padding-top: 1.5%;
+    display: block;
+    text-align: center;
+    font-size: 3vw;
+}
+#h2404 {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+}
+#img404 {
+    padding-top: 2.5%;
+    display: block;
+    margin: auto;
+    width: 60em;
+    height: 35em;
+    border-radius: 10%;
+}
