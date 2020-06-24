@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title> Fantasy </title>
+		<link type="text/css" rel="stylesheet" href="/css/dropdown.css">
+		<link type="text/css" rel="stylesheet" href="/css/style.css">
+		<link type="text/css" rel="stylesheet" href="/css/stylesignup.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8"> 
+		<meta name="description" content="game sales">
+		<meta name="keywords" content="sign up, username">
+		<meta name="author" content="Mindruleanu Matei Daniel">
+		<link rel="shortcut icon" href="/galery/favicon.ico" />
+	</head>
+
+	<body>	
+		<%- include("../fragmente/header") %>				
+		<main>
+			
+			<div class="sign-up-form">
+				<h1> Sign Up Now </h1>
+				<form method = "post", action = "/signup">
+					<input type="username" class="input" placeholder="Your Username" name="username" required>
+					<input type="email" class="input" placeholder="Your Email" name="email" required>
+					<input type="password" class="input" placeholder="Your Password" name="password" required>
+					<p><span> <input type = "checkbox" name="conditions" required> </span>I agree to the terms and conditions</p>
+					<button href="#" type="submit" class="signup-btn">Sign up</button>
+				</form>
+			</div>
+			
+			<div class="spatiu">
+			</div>
+		
+		</main>
+		<%- include("../fragmente/footer") %>
+	</body>
+	
+</html>

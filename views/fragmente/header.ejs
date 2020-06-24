@@ -1,0 +1,39 @@
+<header>
+            <nav class="navbbb">
+                <ul class="navbar">
+					<li>
+						<img src="https://www.freepnglogos.com/uploads/f-logo-orange-png-19.png" id="logo-image" title="logo">
+					</li>
+					<li>
+						<ul class="aliniat-la-stanga">
+							<li><a href="/index">Fantasy</a></li>
+							<li><a href="/singup">Log In</a></li>
+							<li><a href="/help">Support</a></li>
+							<li>
+								<div class="dropdown">
+									<a href="#" class="dropdown-trigger">Store</a>
+									<div class="dropdown-content">
+										<span class="dropdown-span"> <a href="/Multiplayer"> RPG Games </a> </span>
+										<span class="dropdown-span"> <a href="/Singleplayer"> Strategy Games </a> </span>
+										<span class="dropdown-span"> <a href="/Cooperative"> FPS Games </a> </span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<% if(locals.username) { %> 
+						<p style = "color:orange"><%= locals.username %> </p>
+						| <a href="/logout">Logout</a>
+						<% } 
+					%>
+
+					<li id="wwwww">
+						<ul class="aliniat-la-dreapta">
+							<li><a href="/cart">Cart</a></li>
+						</ul>
+					</li>
+                </ul>
+            </nav>
+
+		</header>

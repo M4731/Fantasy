@@ -1,0 +1,37 @@
+{
+    "last_id": 4,
+    "useri": [
+        {
+            "id": 0,
+            "username": "matei",
+            "email": "mateimindruleanu@gmail.com",
+            "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+            "dataInreg": "2020-06-23T15:24:57.663Z",
+            "rol": "user"
+        },
+        {
+            "id": 1,
+            "username": "cuoaieeeeeee",
+            "email": "matei@gmail.com",
+            "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+            "dataInreg": "2020-06-23T15:26:39.417Z",
+            "rol": "user"
+        },
+        {
+            "id": 2,
+            "username": "ezreal2606",
+            "email": "mateimindr22uleanu@gmail.com",
+            "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+            "dataInreg": "2020-06-23T15:27:50.420Z",
+            "rol": "user"
+        },
+        {
+            "id": 3,
+            "username": "matei1",
+            "email": "mateimindrule22anu@gmail.com",
+            "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+            "dataInreg": "2020-06-23T18:18:10.600Z",
+            "rol": "user"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "last_id": 0,
+    "games":
+    [
+        {
+            "id": 1,
+            "name": "Minecraft",
+            "price": 19.99,
+            "discount": 7.99,
+            "image": "https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg"
+        }
+    ]
+}

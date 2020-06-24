@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!--LOGIN-->
+	<head>
+
+		<title> Fantasy </title>
+		<link type="text/css" rel="stylesheet" href="/css/dropdown.css">
+		<link type="text/css" rel="stylesheet" href="/css/style.css">
+		<link type="text/css" rel="stylesheet" href="/css/stylesignup.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8"> 
+		<meta name="description" content="game sales">
+		<meta name="keywords" content="log in">
+		<meta name="author" content="Mindruleanu Matei Daniel">
+		<link rel="shortcut icon" href="/galery/favicon.ico" />
+
+	</head>
+
+	<body>
+		<%- include("../fragmente/header") %>	
+	
+		<% if(locals.error) { %> 
+            <script>
+                alert("Incorrect id/password");
+			</script> <%}
+		%>
+
+		<main>
+		
+			<div class="sign-up-form">
+				<h1> Log In Here </h1>
+				<form method = "post", action = "/login">
+					<input type="text" class="input" placeholder="Username" name="username">
+					<input type="password" class="input" placeholder="Password" name="password">
+					<button type="submit" class="signup-btn">Log In</button>
+					<hr>
+					<p id="or">OR</p>
+					<p>You do not have an account?</p>
+					<p>Sign up <a id="signupp" href="/signup"> here </a> .</p>
+				</form>
+			</div>
+			
+			<div class="spatiu">
+			</div>
+		
+		</main>
+		<%- include("../fragmente/footer") %>
+	</body>
+	
+</html>
+	
