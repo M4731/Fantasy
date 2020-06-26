@@ -111,6 +111,3 @@ app.post('/login', function(req, res) {
 
 app.listen(8080);
 console.log('Aplicatia se va deschide pe portul 8080.');
-
-
-

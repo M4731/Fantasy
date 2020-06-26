@@ -46,26 +46,26 @@ window.onload=function(){
                 //daca exista discount afisez pretul produsului taiat si apoi discount-ul
                 textTemplate+=ejs.render(
                 "<li class='poze'>\
-                    <a href='#' class='Buy'>BUY</a>\
+                    <a onclick='addproduct(<%=game.id%>,<%=game.discount%>,<%=name%>)' class='Buy'>BUY</a>\
                     <figure>\
                         <img src=<%=game.image%> alt='.' class='imagine1'>\
-                        <figcaption><del><%=game.price%></del> EUR -> <%=game.discount%> EUR</figcaption>\
+                        <figcaption data-id = '<%=game.id%>' data-price = '<%=game.discount%>' data-name = '<%=game.name%>' data-red = '<%=game.price - game.discount%>'><del><%=game.price%></del> EUR -> <%=game.discount%> EUR</figcaption>\
                     </figure>\
                 </li>", 
-                {game: v[i]});
+                {game: v[i], name:"'"+String(v[i].name)+"'"});
             }
             else 
             {
                 //daca nu exista discount afisez direct pretul produsului
                 textTemplate+=ejs.render(
                 "<li class='poze'>\
-                    <a href='#' class='Buy'>BUY</a>\
+                    <a onclick='addproduct(<%=game.id%>,<%=game.discount%>,<%=name%>)' class='Buy'>BUY</a>\
                     <figure>\
                         <img src=<%=game.image%> alt='.' class='imagine1'>\
-                        <figcaption> <%=game.discount%> EUR</figcaption>\
+                        <figcaption data-id = '<%=game.id%>' data-price = '<%=game.discount%>' data-name = '<%=game.name%>' data-red = '<%=game.price - game.discount%>'> <%=game.discount%> EUR</figcaption>\
                     </figure>\
                 </li>", 
-                {game: v[i]});
+                {game: v[i], name:"'"+String(v[i].name)+"'"});
             }
         } 
         //adaug textul cu afisarea studentilor in container
@@ -103,26 +103,26 @@ window.onload=function(){
                 //daca exista discount afisez pretul produsului taiat si apoi discount-ul
                 textTemplate+=ejs.render(
                 "<li class='poze'>\
-                    <a href='#' class='Buy'>BUY</a>\
+                    <a onclick='addproduct(<%=game.id%>,<%=game.discount%>,<%=name%>)' class='Buy'>BUY</a>\
                     <figure>\
                         <img src=<%=game.image%> alt='.' class='imagine1'>\
-                        <figcaption><del><%=game.price%></del> EUR -> <%=game.discount%> EUR</figcaption>\
+                        <figcaption data-id = '<%=game.id%>' data-price = '<%=game.discount%>' data-name = '<%=game.name%>' data-red = '<%=game.price - game.discount%>'><del><%=game.price%></del> EUR -> <%=game.discount%> EUR</figcaption>\
                     </figure>\
                 </li>", 
-                {game: v[i]});
+                {game: v[i], name:"'"+String(v[i].name)+"'"});
             }
             else 
             {
                 //daca nu exista discount afisez direct pretul produsului
                 textTemplate+=ejs.render(
                 "<li class='poze'>\
-                    <a href='#' class='Buy'>BUY</a>\
+                    <a onclick='addproduct(<%=game.id%>,<%=game.discount%>,<%=name%>)' class='Buy'>BUY</a>\
                     <figure>\
                         <img src=<%=game.image%> alt='.' class='imagine1'>\
-                        <figcaption> <%=game.discount%> EUR</figcaption>\
+                        <figcaption data-id = '<%=game.id%>' data-price = '<%=game.discount%>' data-name = '<%=game.name%>' data-red = '<%=game.price - game.discount%>'> <%=game.discount%> EUR</figcaption>\
                     </figure>\
                 </li>", 
-                {game: v[i]});
+                {game: v[i], name:"'"+String(v[i].name)+"'"});
             }
         } 
         //adaug textul cu afisarea studentilor in container

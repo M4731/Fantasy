@@ -13,7 +13,9 @@
 		<meta name="description" content="game sales">
 		<meta name="keywords" content="cart, table, checkout">
 		<meta name="author" content="Mindruleanu Matei Daniel">
-		<link rel="shortcut icon" href="/galery/favicon.ico" />
+        <link rel="shortcut icon" href="/galery/favicon.ico" />
+        
+        <script src="js/cart.js"></script>
 
 	</head>
 
@@ -33,25 +35,18 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Witcher 3: Wild Hunt</td>
-                        <td>1</td>
-                        <td>13.96</td>
-                    </tr>
-					<tr>
-                        <td>Total War: Warhammer II</td>
-                        <td>2</td>
-                        <td>59.99</td>
-                    </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                         <td colspan="2">Total Price</td>
-						<td>133.94</td>
+						<td id="total_pret"></td>
                     </tr>
                 </tfoot>
             </table>
-		
+        
+            <section id="secbuysort">
+                <button onclick="emptycart()" class='ButonSortare'> empty cart </button>
+            </section>
 		
 		
 		
