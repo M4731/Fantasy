@@ -151,6 +151,7 @@ function addproduct(id, price, name)
         localStorage.setItem(id,null);
         localStorage.setItem(id, JSON.stringify(vector));
     }
+    alert("The game has been added to your cart.");
 }
 
 
