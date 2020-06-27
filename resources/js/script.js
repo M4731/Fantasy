@@ -130,5 +130,5 @@ window.onload=function(){
             container.innerHTML=textTemplate;
     }
     
-    
+    document.body.addEventListener("contextmenu", rightclick);
 }

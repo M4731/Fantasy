@@ -15,48 +15,50 @@
 
         <script src="js/ejs.min.js"></script>     
         <script src="js/storesorting.js"></script>          
-        <script src="js/storescript.js"></script>
+		<script src="js/storescript.js"></script>
+		<script src="js/task2_3.js"></script>
+		<script src="js/task2_13.js" defer></script>
 
 	</head>
 
 	<body>
 		<%- include("../fragmente/header") %>			
 		<main>
+		<div class = "profile-value">	
+			<section>
+				<h1 id="h1index" ></h1>
+				<p id="description"> 
+				<br> 
+				This is the page where you can find every single product that we are selling right now!
+				</p>
+
+			</section>
 			
-		<section>
-			<h1 id="h1index">Store</h1>
-			<p id="description"> 
-			<br> 
-			This is the page where you can find every single product that we are selling right now!
-			</p>
-
-		</section>
-        
-        <section id="secbuysort">
-			<button onclick="sortarePretD()" class='ButonSortare'> < Sort by price </button>
-			<button onclick="sortareReducere()" class='ButonSortare'> Sort by promotion </button>
-			<button onclick="sortarePret()" class='ButonSortare'> Sort by price > </button>
-		</section>
-		<section id="secbuysort2">
-			<ul class="libuy">
-				Cheap Products : <input type="checkbox" onclick="cheap()" id="checkCheap">
-				Discount : <input type="checkbox" onclick="cheap()" id="checkDiscount">
-			</ul>
-		</section>
-		<section id="secbuysort">
-			<button onclick="reset()" class='ButonSortare'> Reset Filters </button>
-		</section>
-        
-		<section class="trending">
-			<div>
-				<ul id="afisTemplateStore" class="lista" style="list-style-type:none;">
+			<section id="secbuysort">
+				<button onclick="sortarePretD()" class='ButonSortare'> < Sort by price </button>
+				<button onclick="sortareReducere()" class='ButonSortare'> Sort by promotion </button>
+				<button onclick="sortarePret()" class='ButonSortare'> Sort by price > </button>
+			</section>
+			<section id="secbuysort2">
+				<ul class="libuy">
+					Cheap Products : <input type="checkbox" onclick="cheap()" id="checkCheap">
+					Discount : <input type="checkbox" onclick="cheap()" id="checkDiscount">
 				</ul>
-			</div>
-        </section>
+			</section>
+			<section id="secbuysort">
+				<button onclick="reset()" class='ButonSortare'> Reset Filters </button>
+			</section>
+			
+			<section class="trending">
+				<div>
+					<ul id="afisTemplateStore" class="lista" style="list-style-type:none;">
+					</ul>
+				</div>
+			</section>
 
-        <p>
-        </p>
-
+			<p>
+			</p>
+		</div>
 		</main>
 		<%- include("../fragmente/footer") %>
 	</body>

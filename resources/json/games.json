@@ -105,7 +105,14 @@
             "discount": 14.99,
             "image": "https://store-images.s-microsoft.com/image/apps.8108.13815544201998268.dcc445d8-9bc1-4d1f-ba2d-01c2e643d974.7fb3edeb-c5dd-4904-8e16-b879d3edf7c9?mode=crop&q=90&h=252&w=448",
             "nrOfBuys" : 0
+        },
+        {
+            "id": 13,
+            "name": "Stellaris",
+            "price": 38.99,
+            "discount": 4.39,
+            "image": "https://p1.akcdn.net/full/389718022.paradox-interactive-stellaris-pc.jpg",
+            "nrOfBuys" : 0
         }
-
     ]
 }

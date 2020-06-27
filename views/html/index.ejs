@@ -16,59 +16,59 @@
 		<script src="js/ejs.min.js"></script>             
 		<script src="js/script.js"></script>
 		<script src="js/storesorting.js"></script>  
+		<script src="js/task2_13.js" defer></script>
+		<!-- <script src="js/task3_13.js"></script> -->
+		<script src="js/RightClickMenu.js"></script>
 
 	</head>
 
 	<body>
-		<%- include("../fragmente/header") %>			
-		<main>
+		<%- include("../fragmente/header") %>		
+		<main class = "profile-value">
+			<section>
+				<h1 id="h1index">Welcome to Fantasy!</h1>
+
+				<p id="description"> <b> Fantasy.com </b> is a new digital marketplace which specializes in the sale of video games by redemption keys.
+				<br> 
+				The main product offering on <b> Fantasy.com </b> is game key codes to such platforms as Steam, Origin and Xbox.
+				</p>
+			</section>
 			
-		<section>
-			<h1 id="h1index">Welcome to Fantasy!</h1>
+			<section class="trending">
+				<h2 class="ttrending">
+					Trending 
+				</h2>
+				<p id="trendingdesc">
+					What people are interested in right now.
+				</p>
 
-			<p id="description"> <b> Fantasy.com </b> is a new digital marketplace which specializes in the sale of video games by redemption keys.
-			<br> 
-			The main product offering on <b> Fantasy.com </b> is game key codes to such platforms as Steam, Origin and Xbox.
-			</p>
-
-		</section>
-		
-		<section class="trending">
-            <h2 class="ttrending">
-			    Trending
-			</h2>
-			<p id="trendingdesc">
-			    What people are interested in right now.
-			</p>
-
-			<div>
-				<ul id="afisTemplate" class="lista" style="list-style-type:none;">
-				</ul>
-			</div>
-        </section>
-		
-		
-		<section class="Specials">
-            <h2 class="ttrending">
-			    Specials
-			</h2>
-			<p>
-			    Highest sales
-			</p>
-
-			<div>
-				<ul id="afisTemplateSpecials" class="lista" style="list-style-type:none;">
-				</ul>
-			</div>
+				<div>
+					<ul id="afisTemplate" class="lista" style="list-style-type:none;">
+					</ul>
+				</div>
+			</section>
 			
-		</section>
-		
+			
+			<section class="Specials">
+				<h2 class="ttrending">
+					Specials
+				</h2>
+				<p>
+					Highest sales
+				</p>
 
-		
-		<section class="nicinustiu">
-			<h3>You can find more items in <a href="/Store">Store</a> .</h3>
-		</section>
+				<div>
+					<ul id="afisTemplateSpecials" class="lista" style="list-style-type:none;">
+					</ul>
+				</div>
+				
+			</section>
+			
 
+			
+			<section class="nicinustiu">
+				<h3>You can find more items in <a href="/Store">Store.</a> </h3>
+			</section>
 		</main>
 		<%- include("../fragmente/footer") %>
 	</body>
