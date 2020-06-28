@@ -1,5 +1,5 @@
 var str = "404 ERROR";
-var str2 = str.split("");
+var str2 = str.split(" ");
 //luam textul, ii dam split(in litere)
 
 var id = setInterval(cuvant, 300);
@@ -21,7 +21,7 @@ function cuvant() {
 function cuvant2() { //functie care verifica daca s a terminat primul cuvant
     if (k == 1) {
         str = "Page not Found";
-        str2 = str.split("");
+        str2 = str.split(" ");
         x = 0;
         id = setInterval(cuvant3, 300);
     }

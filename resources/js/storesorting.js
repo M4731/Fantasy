@@ -151,86 +151,21 @@ function addproduct(id, price, name)
         localStorage.setItem(id,null);
         localStorage.setItem(id, JSON.stringify(vector));
     }
-    alert("The game has been added to your cart.");
+    showPopUp();
+}
+
+function showPopUp()
+{
+    document.getElementById("buypopup").style.display="block";
+    setTimeout(removePopUp , 1500);
+}
+ 
+function removePopUp()
+{
+    document.getElementById("buypopup").style.display="none";
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// window.onload=function(){
-//     var ajaxRequest = new XMLHttpRequest();
-
-// 	ajaxRequest.onreadystatechange = function() {
-// 			//daca am primit raspunsul (readyState==4) cu succes (codul status este 200)
-// 			if (this.readyState == 4 && this.status == 200) {
-// 					//in proprietatea responseText am contintul fiserului JSON
-//                     var obJson = JSON.parse(this.responseText);
-//                     afiseajaJsonTemplateStore(obJson);
-// 			}
-//     };
-    
-// 	//deschid o conexiune cu o cerere de tip get catre server
-// 	//json e pus in folderul static "resurse" deci calea e relativa la acel folder (fisierul e la calea absoluta /resurse/json/studenti.json)
-// 	ajaxRequest.open("GET", "/json/games.json", true);
-// 	//trimit catre server cererea
-// 	ajaxRequest.send();
-
-//     function sort(){
-//         var temp = document.getElementById("afisTemplateStore");
-//         //ul ul care retine toate li-urile de jocuri
-
-//         var jocuri = temp.children;
-//         var arrayjocuri = Array.prototype.slice.call(jocuri);
-//     }
-    
-// }
+setInterval(() => {
+    alert("not sure what to buy?")
+}, 1000*60*5);

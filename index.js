@@ -66,6 +66,7 @@ app.post('/signup', function(req, res)
             email: fields.email,
             parola: parolaCriptata,
             dataInreg:new Date(),
+            check: fields.conditions,
             rol: "user"
         }
     //am creat obiect nou de tip user pe care il bagam in vectorul useri

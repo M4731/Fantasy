@@ -14,12 +14,13 @@
 		<meta name="keywords" content="log in">
 		<meta name="author" content="Mindruleanu Matei Daniel">
 		<link rel="shortcut icon" href="/galery/favicon.ico" />
-
+		<script src="js/script.js"></script>
+		<script src="js/RightClickMenu.js"></script>
 	</head>
 
 	<body>
 		<%- include("../fragmente/header") %>	
-	
+		<%- include("../fragmente/rightclick") %>
 		<% if(locals.error) { %> 
             <script>
                 alert("Incorrect id/password");

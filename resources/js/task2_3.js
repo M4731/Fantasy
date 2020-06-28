@@ -4,7 +4,7 @@ var lungime = cuvant.length;
 
 console.log(lungime);
 
-var interval = setInterval(titlu, 100);
+var interval = setInterval(titlu, 1000);
 var i = 0;
 
 function titlu() {
@@ -27,12 +27,11 @@ function titlu() {
         for (var j = 0; j < lungime - 2 * i; j++) 
         {
             titlu_curent += " ";
-            CountQueuingStrategy++;//pune spatii in locul caracterelor ce nu trebuie sa fie afisate
         }
         for (var j = 0; j < i; j++) 
         {
-            titlu_curent += cuvant[q];
-            q++;//pune ultimele i caractere
+            titlu_curent += cuvant[cuvant.length-q];
+            q--;//pune ultimele i caractere
         }
     }
     document.getElementById('h1index').innerHTML = titlu_curent;

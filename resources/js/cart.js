@@ -25,6 +25,14 @@ window.onload=function(){
     }
     sum = sum.toFixed(2);
     document.getElementById("total_pret").innerHTML = sum+"€";
+
+    //rightclick
+    document.body.addEventListener("contextmenu", rightclick);
+    document.body.addEventListener("click", hideContextMenu);
+
+    document.getElementById("con1").onclick = q1;
+    document.getElementById("con2").onclick = q2;
+    document.getElementById("con3").onclick = q3;
 }
 
 function emptycart()

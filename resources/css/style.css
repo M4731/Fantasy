@@ -274,29 +274,42 @@ main {
 	border-radius: 6px;
 }
 
-/* .container{
-	display: relative;
-	height: 100000px;
-	width: 100000px;
-	background-color: #666;
-}
-.context-menu{
-	width: 20px;
-	height: auto;
-	box-shadow: 0 0 20px 0 #ccc;
+#divrc {
 	position: absolute;
 	display: none;
+	background-color: #f4f4f4;
+	z-index: 10;
+	box-shadow: 0px 0px 10px;
+	text-transform: capitalize;
 }
-.context-menu ul{
-	list-style: none;
-	padding: 5px 0px 5px 0px;
+
+#divrc ul {
+	list-style-type: none;
 }
-.context-menu ul li{
-	padding: 10px 5px 10px 5px;
-	border-left: 4px solid transparent;
+
+#divrc ul li{
+	padding: 1em;
+}
+
+#divrc ul li:hover{
+	background-color: grey;
 	cursor: pointer;
 }
-.context-menu ul li:hover{
-	background: #eee;
-	border-left: 4px solid #666;
-} */
+
+#buypopup{
+	position: fixed;
+	display: none;
+	padding: 5.5%;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 9;
+}
+
+#buypopup ul{
+	background-color: grey;
+	border-radius: 2%;
+	text-align: center;
+	padding: 5.5%;
+	box-shadow: 0px 0px 10px;
+}
